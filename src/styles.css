@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+.iconos{
+    width: 1.5vw;
+    margin-left: 1em;
+}
+body{
+    width: 70vw;
+    background-color: aliceblue;
+}
+main{
+}
