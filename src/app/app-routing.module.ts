@@ -11,23 +11,23 @@ const routes: Routes = [
   {
     path: 'bienvenido',
     component: InicioComponent
-},
-{
+  },
+  {
     path: 'contacto',
     component: ContactoComponent,
-},
-{
+  },
+  {
     path: 'sobremi',
     component: SobremiComponent,
-},
-{
+  },
+  {
     path: 'proyectos',
     component: ProyectosComponent,
-},
-{
-  path: '**',
-  redirectTo: 'bienvenido',
-}
+  },
+  {
+    path: '**',
+    redirectTo: 'bienvenido',
+  }
 
 ];
 

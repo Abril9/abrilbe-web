@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "./dist/abrilbe-web",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "dist/abrilbe-web/index.html"
+        "destination": "/index.html"
       }
     ]
   }

@@ -10,6 +10,8 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
 import { SobremiComponent } from './sobremi/sobremi.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { EntradaComponent } from './entrada/entrada.component';
+import { BannerLigthComponent } from './banner-ligth/banner-ligth.component';
+import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { EntradaComponent } from './entrada/entrada.component';
     ProyectosComponent,
     SobremiComponent,
     ContactoComponent,
-    EntradaComponent
+    EntradaComponent,
+    BannerLigthComponent,
+    TecnologiasComponent
   ],
   imports: [
     BrowserModule,
