@@ -2,6 +2,11 @@
     width: 1.5vw;
     margin-left: 1em;
 }
+.texto{
+    width: 50vw;
+    font-size: 1vw;
+    padding-left: 2vw;
+}
 body{
     width: 70vw;
     background-color: aliceblue;
