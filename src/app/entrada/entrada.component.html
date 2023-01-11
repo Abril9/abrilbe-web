@@ -5,16 +5,17 @@
         </div>
         <div class="col">
             <div class="row">
-                <h4> {{titulo}}</h4>
-                <h6 style="font-size: smaller;"> Abril
-                    <a>
-                        {{ fecha| date}}
-                        <span class="material-symbols-outlined icono-time">
-                            nest_clock_farsight_analog
-                        </span>
-                    </a>
-                </h6>
-                <h6>
+
+                <h4 style="margin-left: 2vw;"> {{titulo}}</h4>
+                <p style="font-size: 0.8vw;" align="right">
+                    by Abril on
+                    <span class="material-symbols-outlined icono-time" style="
+                        font-size: 0.7vw;">
+                        nest_clock_farsight_analog
+                    </span>
+                    {{ fecha| date}}.
+                </p>
+                <p align="right">
                     <i class="fas fa-phone mr-3"></i>
                     <a href="https://github.com/Abril9?tab=projects">
                         <img class="iconos2" alt="github" src="../../assets/github.svg">
@@ -26,9 +27,9 @@
                         <img class="iconos2" alt="linkedin" src="../../assets/linkedin.svg">
                     </a>
                     <a href="https://instagram.com/aa_abr_rr9">
-                        <img class="iconos2" alt="instagram" src="../../assets/instagram.svg">
+                        <img class="iconos2" style="width: 1.2vw;" alt="instagram" src="../../assets/instagram.svg">
                     </a>
-                </h6>
+                </p>
             </div>
         </div>
         <h1>

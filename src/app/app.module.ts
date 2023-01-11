@@ -12,6 +12,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { EntradaComponent } from './entrada/entrada.component';
 import { BannerLigthComponent } from './banner-ligth/banner-ligth.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TecnologiasComponent } from './tecnologias/tecnologias.component';
     ContactoComponent,
     EntradaComponent,
     BannerLigthComponent,
-    TecnologiasComponent
+    TecnologiasComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
